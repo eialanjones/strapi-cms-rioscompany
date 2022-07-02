@@ -90,3 +90,7 @@ typings/
 .history/
 
 .tmp/
+
+build/
+
+dist/
