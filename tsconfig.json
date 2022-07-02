@@ -1,0 +1,22 @@
+{
+  "extends": "@strapi/typescript-utils/lib/configs/server",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": ".",
+    "baseUrl": "src/",
+    "paths": {
+      "src/*": ["*"]
+    }
+  },
+  "include": ["./", "src/**/*.json"],
+  "exclude": [
+    "node_modules/",
+    "build/",
+    "dist/",
+    ".cache/",
+    ".tmp/",
+    "src/admin/",
+    "**/*.test.ts",
+    "src/plugins/**"
+  ]
+}
